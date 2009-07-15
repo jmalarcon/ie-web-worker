@@ -56,7 +56,7 @@ if(!Worker)
 			{
 				if ( "function" == typeof self.onerror )
 				{
-					return self.onerror( { "message" : ex.message } ) ;
+					return self.onerror( ex ) ;
 				}
 			}
 			return false ;
