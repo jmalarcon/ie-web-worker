@@ -1,7 +1,7 @@
 /*
 	Create a fake worker thread of IE and other browsers
-	Remember: Only pass in primitives, and there is none of the native
-			security happening
+	Remember: Only pass in primitives, and there is none of the native security happening
+	Only Supports Dedicated Web Workers
 */
 
 if(!Worker)
